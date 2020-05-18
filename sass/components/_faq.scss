@@ -1,6 +1,7 @@
 .faq {
   margin: 5% 10% 0;
-  background-image: url("/assets/faqs.png");
+  background-image: url("../../assets/faqs.png");
+
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -8,12 +9,14 @@
   padding-top: 150px;
   .faq__title {
     @include title;
+    background-image: url("../assets/faqs.png");
   }
   .faq__description {
     @include description;
     font-size: 32px;
     font-weight: 700;
     width: 45%;
+    background-image: url("./assets/faqs.png");
   }
   .faq__questions {
     margin-top: 100px;
@@ -22,6 +25,7 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-image: url("/assets/faqs.png");
   }
   .faq__questions__question {
     position: relative;
