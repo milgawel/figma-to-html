@@ -35,7 +35,7 @@
     }
 
     .question__button {
-      background-image: url("../../assets/+.png");
+      background-image: url("../assets/+.png");
       background-repeat: no-repeat;
       background-position: 95% 50%;
       border-radius: 15px;
@@ -52,7 +52,7 @@
       &:hover {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        background-image: url("../../assets/-.png");
+        background-image: url("../assets/-.png");
       }
     }
 
@@ -83,7 +83,7 @@
     color: $red;
     border-radius: 10px;
     border: none;
-    background-image: url("../../assets/+.png");
+    background-image: url("../assets/+.png");
     background-repeat: no-repeat;
     background-position: 95% 50%;
     cursor: pointer;
