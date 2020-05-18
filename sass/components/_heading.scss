@@ -6,7 +6,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   @media (max-width: 720px) {
-    background-size: 120%;
+    background-size: 135%;
     height: 100vw;
   }
 
@@ -16,13 +16,16 @@
     top: 10%;
     margin-left: 10%;
     @media (max-width: 720px) {
-      top: 15%;
+      top: 20%;
     }
 
     .slogan__text {
       font-size: 52px;
       @media (max-width: 1240px) {
         font-size: 4vw;
+      }
+      @media (max-width: 720px) {
+        font-size: 6.5vw;
       }
     }
     .slogan__button {

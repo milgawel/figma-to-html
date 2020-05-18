@@ -1,16 +1,15 @@
 .faq {
-  margin: 5% 10% 0;
+  margin: 5% 0 0;
+  padding: 50px 10% 150px 10%;
   background-image: url("../assets/faqs.png");
   background-repeat: no-repeat;
-  background-position-x: right;
   background-size: contain;
-  padding-bottom: 50px;
-  padding-top: 150px;
+  background-position: right;
   @media (max-width: 720px) {
-    background-size: contain;
-    margin: 5% 5% 0;
-    padding-top: 33vw;
+    background-position-y: top;
+    padding: 33vw 2.5% 20px 2.5%;
   }
+
   .faq__title {
     @include title;
     @media (max-width: 720px) {
