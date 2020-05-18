@@ -1,0 +1,30 @@
+.aboutUs {
+  margin: 5% 10% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .aboutUs__textContent {
+    width: 46%;
+
+    .aboutUs__textContent__title {
+      @include title;
+    }
+    .aboutUs__textContent__description {
+      @include description;
+    }
+    .aboutUs__textContent__card {
+      background-color: $darkPink;
+      border-left: 4px solid $red;
+      border-radius: 5px;
+      margin-top: 30px;
+      padding: 20px 20px;
+      font-size: 20px;
+      color: $black;
+      font-weight: 700;
+    }
+  }
+  .aboutUs__image {
+    width: 46%;
+  }
+}

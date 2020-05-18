@@ -1,0 +1,23 @@
+.heading {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/Scene.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .heading__slogan {
+    position: relative;
+    width: 50%;
+    top: 10%;
+    margin-left: 10%;
+
+    .slogan__text {
+      font-size: 52px;
+    }
+    .slogan__button {
+      margin-top: 20px;
+      @include button;
+    }
+  }
+}

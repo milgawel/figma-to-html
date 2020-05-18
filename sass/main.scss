@@ -1,3 +1,11 @@
+@import "./core/colors";
+@import "./core/mixins";
+@import "./components/navigation";
+@import "./components/heading";
+@import "./components/aboutUs";
+@import "./components/howTo";
+@import "./components/faq";
+
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +18,14 @@ html {
 }
 
 body {
-  // min-height: 200vh;
-  background-color: #000;
+  min-height: 350vh;
+  background-color: $pink;
   width: 100%;
   color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
 }
