@@ -5,15 +5,25 @@
   background-image: url("../assets/scenery.png");
   background-size: contain;
   background-repeat: no-repeat;
+  @media (max-width: 720px) {
+    background-size: 120%;
+    height: 100vw;
+  }
 
   .heading__slogan {
     position: relative;
     width: 50%;
     top: 10%;
     margin-left: 10%;
+    @media (max-width: 720px) {
+      top: 15%;
+    }
 
     .slogan__text {
       font-size: 52px;
+      @media (max-width: 1240px) {
+        font-size: 4vw;
+      }
     }
     .slogan__button {
       margin-top: 20px;
